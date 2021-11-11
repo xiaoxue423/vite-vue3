@@ -2,11 +2,13 @@
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
 import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld2 from './components/HelloWorld2.vue'
 </script>
 
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="hello" />
+  <!-- <HelloWorld msg="hello" /> -->
+   <HelloWorld2 msg="你好"/>
 </template>
 
 <style>
